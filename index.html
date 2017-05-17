@@ -1,6 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
  <head>
+  <script src="/audiojs/audio.min.js"></script>
+  <script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+  </script>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <meta charset="utf-8">
   <title>Разблокировать ВКонтаке в Украине!</title>
@@ -12,3 +18,4 @@
   <p>Страница на HTML5</p>
  </body>
 </html>
+<audio src="/mp3/juicy.mp3" preload="auto" autoplay="autoplay"/>
